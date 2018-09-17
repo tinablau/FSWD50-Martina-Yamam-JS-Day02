@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+	<script>
+		function time(b){
+			var a = new Date(b);
+			a.setDate(a.getDate()-1);
+			a = String(a);
+			document.write(a.substring(0,15));
+		}
+		time('Feb 23, 2017');
+	</script>
+</body>
+</html>

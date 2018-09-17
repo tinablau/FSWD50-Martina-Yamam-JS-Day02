@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+   <title></title>
+
+</head>
+
+<body>
+
+   <p id='message'></p>
+
+   <script type="text/javascript">
+
+   	try {
+
+   	var person = prompts("Please enter your name", "Harry Potter");
+
+   	document.getElementById("message").innerHTML =
+
+   	"Hello " + person + "! How are you today?";
+
+   	}
+   	catch(err){
+   	document.write(err.message + " Please rewrite it!");
+   	}
+
+   </script>
+<script src='Basic6script.js'></script>
+</body>
+
+</html>
+
+
